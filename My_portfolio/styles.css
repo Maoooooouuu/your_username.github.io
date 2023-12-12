@@ -1,0 +1,111 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    background: linear-gradient(45deg, #ff3366, #6633cc, #ff3366, #6633cc);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s infinite;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ff3366;
+}
+
+.scroll-link {
+    color: #ff3366;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.scroll-link:hover {
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffecb3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+#socials ul {
+    list-style: none;
+    padding: 0;
+}
+
+#socials li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#socials a {
+    color: #ff3366;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#socials a:hover {
+    color: #ff3366;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+#about,
+#projects,
+#contact,
+#socials {
+    background-color: #ffe6ff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2,
+#projects h2,
+#contact h2,
+#socials h2 {
+    color: #ff3366;
+}
+
+
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
